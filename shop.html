@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/shop.css">
+    <link rel="shortcut icon" href="./assets/favIcon.svg" type="image/x-icon">
+    <title>Vital Up</title>
+</head>
+<body>
+    <!-- INICIO DEL HEADER -->        
+    
+    <section class="modal hide" id="modal">
+        <div class="modal__box">
+            <img src="./assets/mainLogo.svg" alt="">
+            <input class="modal__input" type="text" name="" placeholder="Usuario:">
+            <input class="modal__input" type="text" name="" placeholder="Contraseña:">
+            <a class="main__btn" href="">Acceder</a>
+            <a class="main__btn-close" href="">Cerrar</a>
+        </div>
+    </section>
+
+   <header id="header" class="header">
+              
+        <div class="header__container">
+
+            <div class="navbar__toggler hide">
+                <img  src="./assets/toggler.svg" alt="">
+            </div>
+            
+            <div class="header__img-container">
+                <a href="index.html"><img class="header__img" src="./assets/mainLogo.svg"></img></a>
+            </div>   
+            
+            
+
+                
+            <nav class="header__navbar hide">
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item "><a href="shop.html">Compra Ahora</a></li>
+                    <li class="header__navbar-item"><a href="#how">Cómo Funciona</a></li>
+                    <li class="header__navbar-item"><a href="#us">Hacerca de Nosotros</a></li>
+                    <li class="header__navbar-item"><a href="">FAQ</a></li>
+                </ul>
+            </nav>
+
+            
+        
+        
+        <div class="header_icons-container">
+        <ul class="header__icons">
+            <li class="header__icons-icon icon_relative ">
+                <img class="search-item" src="./assets/searchIcon.svg" alt="">
+                <input  class="header__search-input" type="text" placeholder="Buscar">
+            </li>
+
+            <li class="header__icons-icon account-item">
+                <img src="./assets/accountIcon.svg" alt="">
+            </li>
+            <li class="header__icons-icon shop-item">
+                <a href="shop.html"><img src="./assets/shopIcon.svg" alt=""></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+
+   </header>
+
+   
+    <ul class="header__navbar_toggler-list hide">
+        <li class="header__navbar_togger-item"><a href="#">Cómo Funciona</a></li>
+        <li class="header__navbar_togger-item "><a href="#">Compra Ahora</a></li>
+        <li class="header__navbar_togger-item"><a href="#">Hacerca de Nosotros</a></li>
+        <li class="header__navbar_togger-item"><a href="#">FAQ</a></li>
+    </ul>
+</nav>
+
+   <!-- FIN INICIO DEL HEADER -->
+
+   
+
+   <!-- SECCIÓN DE COMPREAS -->
+    <main class="main__shop-container">
+        <h1 class="main__shop-title">PRODUCTOS</h1>
+        <div class="main__show-break"></div>
+        <div class="main__shop-basketIcon"></div>
+
+        <section class="main__shop-section">
+            <aside class="main__shop-nav">
+                <div class="shop__search-container">
+                    <div class="shop__search-icon"></div>
+                    <input class="show__search-input" type="text" placeholder="Buscar:">
+                </div>
+                <nav class="shop__navbar">
+                    <p class="shop__category">TODO</p>
+                    <p class="shop__category">PARA EL CUERPO</p>
+                    <p class="show__category-item">Manos</p>
+                    <p class="show__category-item">Cabeza</p>
+                    <p class="show__category-item">Corporales</p>
+                    <p class="shop__category">PARA EL HOGAR</p>
+                    <p class="show__category-item">Cocina</p>
+                    <p class="show__category-item">Pïsos</p>
+                    <p class="show__category-item">Usos Generales</p>
+                </nav>
+
+            </aside>
+
+            <div class="main__shop-items">
+
+                <div class="product-card" data-filter="">
+                    <img class="card__item-img" src="/assets/product01.png" alt="">
+                    <div>
+                        <p class="card__item-title">Jabón de Avena</p>
+                        
+                    </div>
+                    <div class="price__container">
+                        <p class="card__item-price">$8.000</p>
+                        <img class="card__add-action" src="/assets/addToCart.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="product-card" data-filter="">
+                    <img class="card__item-img" src="/assets/product02.png" alt="">
+                    <div>
+                        <p class="card__item-title">Jabón de Avena</p>
+                        
+                    </div>
+                    <div class="price__container">
+                        <p class="card__item-price">$8.000</p>
+                        <img class="card__add-action" src="/assets/addToCart.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="product-card" data-filter="">
+                    <img class="card__item-img" src="/assets/product03.png" alt="">
+                    <div>
+                        <p class="card__item-title">Jabón de Hierbas</p>
+                        
+                    </div>
+                    <div class="price__container">
+                        <p class="card__item-price">$8.500</p>
+                        <img class="card__add-action" src="/assets/addToCart.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="product-card" data-filter="">
+                    <img class="card__item-img" src="/assets/product04.png" alt="">
+                    <div>
+                        <p class="card__item-title">Jabón de Coco</p>
+                        
+                    </div>
+                    <div class="price__container">
+                        <p class="card__item-price">$8.000</p>
+                        <img class="card__add-action" src="/assets/addToCart.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="product-card" data-filter="">
+                    <img class="card__item-img" src="/assets/product05.png" alt="">
+                    <div>
+                        <p class="card__item-title">Jabón Líquido</p>
+                        
+                    </div>
+                    <div class="price__container">
+                        <p class="card__item-price">$3.500</p>
+                        <img class="card__add-action" src="/assets/addToCart.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="product-card" data-filter="">
+                    <img class="card__item-img" src="/assets/product06.png" alt="">
+                    <div>
+                        <p class="card__item-title">Recipiente</p>
+                        
+                    </div>
+                    <div class="price__container">
+                        <p class="card__item-price">$4.000</p>
+                        <img class="card__add-action" src="/assets/addToCart.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="product-card" data-filter="">
+                    <img class="card__item-img" src="/assets/product07.png" alt="">
+                    <div>
+                        <p class="card__item-title">Para Pisos</p>
+                        
+                    </div>
+                    <div class="price__container">
+                        <p class="card__item-price">$5.200</p>
+                        <img class="card__add-action" src="/assets/addToCart.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="product-card" data-filter="">
+                    <img class="card__item-img" src="/assets/product08.png" alt="">
+                    <div>
+                        <p class="card__item-title">Uso General</p>
+                        
+                    </div>
+                    <div class="price__container">
+                        <p class="card__item-price">$5.200</p>
+                        <img class="card__add-action" src="/assets/addToCart.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="product-card" data-filter="">
+                    <img class="card__item-img" src="/assets/product09.png" alt="">
+                    <div>
+                        <p class="card__item-title">Jabón de Cocina</p>
+                        
+                    </div>
+                    <div class="price__container">
+                        <p class="card__item-price">$3.500</p>
+                        <img class="card__add-action" src="/assets/addToCart.svg" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+
+
+   <!--FIN SECCIÓN DE COMPREAS -->
+   
+
+
+
+
+
+
+
+
+
+
+
+<!-- FOOTER -->
+    <footer id="footer" class="footer">
+        <section class="main__footer-container">
+        <div class="footer__nav">
+        <h4 class="footer__title">SERVICIO AL CLIENTE</h4>
+        <ul class="footer_nav-main">
+            <li class="footer_nav-link"><a href="">Contáctanos</a></li>
+            <li class="footer_nav-link"><a href="">Política de Privacidad</a></li>
+            <li class="footer_nav-link"><a href="">Términos de Servicio</a></li>
+            <li class="footer_nav-link"><a href="">Política de Devoluciones</a></li>
+            <li class="footer_nav-link"><a href="">Contáctanos</a></li>
+        </ul>
+        </div>
+        
+        <div class="footer__info">
+        <h4 class="footer__title">ENTREGA GRATUITA</h4>
+        <h4 class="footer__title-light">Entregamos grátis en Manizales y Villamaría</h4>
+        </div>
+        
+        <div>
+        <h4 class="footer__title">SUSCRÍBETE  Y ENTÉRATE DE NUESTRAS
+            NOVEDADES:</h4>
+        <form action="">
+        <input class="footer__text-input" type="email" name="email" id="" placeholder="email:">
+        <button class="footer__btn">Suscribete</button>
+        </form>
+
+        <ul class="footer__social-links">
+            <li><a href=""><img src="./assets/Facebook_white.svg" alt=""></a></li>
+            <li><a href=""><img src="./assets/Instagram_white.svg" alt=""></a></li>
+            <li><a href=""><img src="./assets/Twitter_white.svg" alt=""></a></li>
+        </ul>
+
+        </div>
+
+        </section>
+
+        <section class="footer__logo">
+            <img src="./assets/headerLogoWhite.svg" alt="">
+        </section>
+
+
+
+    </footer>
+
+
+<!-- FIN FOOTER -->
+
+
+    
+
+<script
+src="https://code.jquery.com/jquery-3.5.1.js"
+ integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+crossorigin="anonymous"></script>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
